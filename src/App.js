@@ -1,26 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div className="header">
+        <div className="top-area">
+          <div className="container d-flex justify-content-between align-items-center">
+            <h1>I'm Enes KAPUCU</h1>
+            <div className="contact-information">
+              <div>enes.kapucu@outlook.com.tr</div>
+              <div>+90(539) 944 9818</div>
+            </div>
+          </div>
+        </div>
+        <div className="bottom-area">
+          <div className="container">
+            <div className="person-box bg-secondary">
+              Selamın Aleyküm
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
 
 export default App;
