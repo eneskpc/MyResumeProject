@@ -3,6 +3,11 @@
 body {
   background-color: #e9e9e9;
   font-family: "Roboto Condensed", sans-serif;
+  ol,
+  ul,
+  dl {
+    padding-left: 1.5rem;
+  }
   .header {
     color: #fff;
     background-color: #41b3cd;
@@ -42,7 +47,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background-color: rgba(0, 0, 0, 0.9);
+      background-color: rgba(0, 0, 0, 0.75);
     }
     &::after {
       content: "";
