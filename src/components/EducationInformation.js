@@ -10,9 +10,9 @@ export default class EducationInformation extends Component {
                     <div className="time-cards">
                         <div className="card text-center mb-4">
                             <div className="time-dot">
-                                <span className="badge badge-secondary">2015 - 2019</span>
+                                <span className="badge badge-primary">2015 - 2019</span>
                             </div>
-                            <div className="card-header">
+                            <div className="card-header bg-primary text-white font-weight-bold">
                                 Namık Kemal Üniversitesi - Çorlu Mühendislik Fakültesi
                                 </div>
                             <div className="card-body">
@@ -21,9 +21,9 @@ export default class EducationInformation extends Component {
                         </div>
                         <div className="card text-center mb-4">
                             <div className="time-dot">
-                                <span className="badge badge-secondary">2012 - 2014</span>
+                                <span className="badge badge-primary">2012 - 2014</span>
                             </div>
-                            <div className="card-header">
+                            <div className="card-header bg-primary text-white font-weight-bold">
                                 Marmara Üniversitesi - Teknik Bilimler Meslek Yüksekokulu
                             </div>
                             <div className="card-body">
@@ -32,9 +32,9 @@ export default class EducationInformation extends Component {
                         </div>
                         <div className="card text-center mb-4">
                             <div className="time-dot">
-                                <span className="badge badge-secondary">2008 - 2012</span>
+                                <span className="badge badge-primary">2008 - 2012</span>
                             </div>
-                            <div className="card-header">
+                            <div className="card-header bg-primary text-white font-weight-bold">
                                 Haydarpaşa Anadolu Teknik ve Endüstri Meslek Lisesi
                             </div>
                             <div className="card-body">
