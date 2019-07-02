@@ -3,6 +3,8 @@ import Header from './components/Header';
 import PersonCard from './components/PersonCard';
 import BasicInfo from './components/BasicInfo';
 import Skills from './components/Skills';
+import WorkExperiences from './components/WorkExperiences';
+import EducationInformation from './components/EducationInformation';
 
 class App extends React.Component {
   render = () => {
@@ -13,6 +15,8 @@ class App extends React.Component {
           <PersonCard />
           <BasicInfo />
           <Skills />
+          <WorkExperiences />
+          <EducationInformation />
         </div>
       </div>
     );
