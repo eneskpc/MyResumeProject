@@ -3,7 +3,7 @@ import profile from '../profile.jpg';
 
 class PersonCard extends React.Component {
     clickHireMe = () => {
-        
+        window.location.href = "mailto:enes.kapucu@outlook.com.tr";
     }
     clickDownloadResume = () => {
         window.print();
@@ -23,7 +23,7 @@ class PersonCard extends React.Component {
                     </a>
                 </div>
                 <div className="mt-4">
-                    <button className="custom-btn-info lg mr-2" type="button">Hire Me!</button>
+                    <button className="custom-btn-info lg mr-2" type="button" onClick={this.clickHireMe}>Hire Me!</button>
                     <button className="custom-btn-light lg" type="button" onClick={this.clickDownloadResume}>Print My Resume!</button>
                 </div>
             </div>

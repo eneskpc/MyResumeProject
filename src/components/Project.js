@@ -13,7 +13,7 @@ export default class Project extends Component {
                             <small>{moment('06/04/2019 20:23').fromNow()}</small>
                         </div>
                         <p className="mb-1">This project is a project that analyzes your resume. It present JSON Data with Rest API.</p>
-                        <small>Developed with C# and <i class="fab fa-react text-info"></i>React.js</small>
+                        <small>Developed with C# and <i className="fab fa-react text-info"></i>React.js</small>
                     </div>
                     <div className="list-group-item px-3">
                         <div className="d-flex w-100 justify-content-between">
@@ -21,7 +21,7 @@ export default class Project extends Component {
                             <small>{moment('05/15/2019 20:23').fromNow()}</small>
                         </div>
                         <p className="mb-1">This project is my graduation project in Namık Kemal University.</p>
-                        <small>Developed with C# and <i class="fab fa-angular text-danger"></i>Angular.io</small>
+                        <small>Developed with C# and <i className="fab fa-angular text-danger"></i>Angular.io</small>
                     </div>
                     <div className="list-group-item px-3">
                         <div className="d-flex w-100 justify-content-between">
@@ -37,7 +37,7 @@ export default class Project extends Component {
                             <small>{moment('11/25/2018 20:23').fromNow()}</small>
                         </div>
                         <p className="mb-1">This project is a project developed for Agile Development Course in Namık Kemal University.</p>
-                        <small>Developed with <i class="fab fa-envira text-success"></i>Java Spring Framework and <i class="fab fa-angular text-danger"></i>Angular.io</small>
+                        <small>Developed with <i className="fab fa-envira text-success"></i>Java Spring Framework and <i className="fab fa-angular text-danger"></i>Angular.io</small>
                     </div>
                     <div className="list-group-item px-3">
                         <div className="d-flex w-100 justify-content-between">
