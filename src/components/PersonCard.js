@@ -2,6 +2,12 @@ import React from 'react';
 import profile from '../profile.jpg';
 
 class PersonCard extends React.Component {
+    clickHireMe = () => {
+        
+    }
+    clickDownloadResume = () => {
+        window.print();
+    }
     render = () => {
         return (
             <div className="person-box bg-secondary ek-shadow">
@@ -18,7 +24,7 @@ class PersonCard extends React.Component {
                 </div>
                 <div className="mt-4">
                     <button className="custom-btn-info lg mr-2" type="button">Hire Me!</button>
-                    <button className="custom-btn-light lg" type="button">Download Resume!</button>
+                    <button className="custom-btn-light lg" type="button" onClick={this.clickDownloadResume}>Print My Resume!</button>
                 </div>
             </div>
         );

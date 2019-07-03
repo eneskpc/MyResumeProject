@@ -7,7 +7,7 @@ class Skills extends React.Component {
             <div className="bg-white p-5 my-4 ek-shadow">
                 <div className="row">
                     <div className="col-lg-6 d-flex">
-                        <div className="bg-light rounded d-flex align-items-center">
+                        <div className="bg-light rounded d-flex align-items-center px-5">
                             <img src={skills} width="100%" alt="Enes KAPUCU's Skills" />
                         </div>
                     </div>
